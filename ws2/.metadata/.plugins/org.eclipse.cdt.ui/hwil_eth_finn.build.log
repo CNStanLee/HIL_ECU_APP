@@ -1,0 +1,118 @@
+04:12:47 **** Build of configuration Debug for project hwil_eth_finn ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_finn/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:94:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   94 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:9:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:98:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   98 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:103:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  103 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:216:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  216 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:305:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  305 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:305:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:328:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  328 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/finn_driver.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/finn_driver.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_finn/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/finn_driver.d" -MT"src/finn_driver.o" -o "src/finn_driver.o" "../src/finn_driver.c"
+../src/finn_driver.c: In function 'calculate_possibility':
+../src/finn_driver.c:111:27: warning: variable 'p4' set but not used [-Wunused-but-set-variable]
+  111 |         float p1, p2, p3, p4;
+      |                           ^~
+../src/finn_driver.c:111:23: warning: variable 'p3' set but not used [-Wunused-but-set-variable]
+  111 |         float p1, p2, p3, p4;
+      |                       ^~
+../src/finn_driver.c:111:19: warning: variable 'p2' set but not used [-Wunused-but-set-variable]
+  111 |         float p1, p2, p3, p4;
+      |                   ^~
+../src/finn_driver.c:111:15: warning: variable 'p1' set but not used [-Wunused-but-set-variable]
+  111 |         float p1, p2, p3, p4;
+      |               ^~
+Finished building: ../src/finn_driver.c
+ 
+Building file: ../src/finn_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/finn_main.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_finn/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/finn_main.d" -MT"src/finn_main.o" -o "src/finn_main.o" "../src/finn_main.c"
+In file included from ../src/finn_main.c:44:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/finn_main.c: In function 'intc_init':
+../src/finn_main.c:58:24: error: 'XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MICROBLAZE_4_AXI_INTC_DEVICE_ID'?
+   58 | #define INTC_ID        XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:58:24: note: in definition of macro 'INTC_ID'
+   58 | #define INTC_ID        XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:58:24: note: each undeclared identifier is reported only once for each function it appears in
+   58 | #define INTC_ID        XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:58:24: note: in definition of macro 'INTC_ID'
+   58 | #define INTC_ID        XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c: In function 'gpio_init':
+../src/finn_main.c:60:31: error: 'XPAR_MB5_FINN_OUT_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB5_FINN_OUT_DEVICE_ID'?
+   60 | #define FINN_OUTPUT_DEVICE_ID XPAR_MB5_FINN_OUT_DEVICE_ID
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:141:39: note: in expansion of macro 'FINN_OUTPUT_DEVICE_ID'
+  141 |         XGpio_Initialize(&GpioOutput, FINN_OUTPUT_DEVICE_ID);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c: In function 'can_device_init':
+../src/finn_main.c:62:24: error: 'XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR'?
+   62 | #define CAN_0_BASEADDR XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:62:24: note: in definition of macro 'CAN_0_BASEADDR'
+   62 | #define CAN_0_BASEADDR XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c: In function 'main':
+../src/finn_main.c:62:24: error: 'XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR'?
+   62 | #define CAN_0_BASEADDR XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/finn_main.c:62:24: note: in definition of macro 'CAN_0_BASEADDR'
+   62 | #define CAN_0_BASEADDR XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/finn_main.o' failed
+make: *** [src/finn_main.o] Error 1
+
+04:12:47 Build Finished (took 265ms)
+

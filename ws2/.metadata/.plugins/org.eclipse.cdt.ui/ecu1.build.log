@@ -1,0 +1,92 @@
+12:59:03 **** Incremental Build of configuration Debug for project ecu1 ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/sw/hwil/mb1_ecu1/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:94:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   94 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:9:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:98:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   98 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:103:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  103 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:216:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  216 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:305:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  305 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:305:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:328:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  328 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/ecu1_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecu1_main.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/sw/hwil/mb1_ecu1/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ecu1_main.d" -MT"src/ecu1_main.o" -o "src/ecu1_main.o" "../src/ecu1_main.c"
+In file included from ../src/ecu1_main.c:17:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/ecu1_main.c: In function 'timer_init':
+../src/ecu1_main.c:96:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   96 |     XTmrCtr_SetHandler(&Timer, timer_intr_handler,&Timer);
+      |                                ^~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                void (*)(void *)
+In file included from ../src/ecu1_main.c:13:
+/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/sw/hwil/mb1_ecu1/bspinclude/include/xtmrctr.h:319:63: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+  319 | void XTmrCtr_SetHandler(XTmrCtr *InstancePtr, XTmrCtr_Handler FuncPtr,
+      |                                               ~~~~~~~~~~~~~~~~^~~~~~~
+Finished building: ../src/ecu1_main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/sw/hwil/mb1_ecu1/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ecu1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/sw/hwil/mb1_ecu1/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ecu1.elf"  ./src/can_drv.o ./src/ecu1_main.o ./src/gpio_drv.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ecu1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ecu1.elf  |tee "ecu1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14448	    436	   3412	  18296	   4778	ecu1.elf
+Finished building: ecu1.elf.size
+ 
+
+12:59:04 Build Finished (took 271ms)
+

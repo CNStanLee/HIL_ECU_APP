@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="hwil_eth_finn_system" platform="/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/hwil_eth.xpfm" platformUID="xilinx:nexys_video::0.0(custom)" sysConfig="hwil_eth" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.11037025">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="hwil_eth_finn" domainName="mb_finn" domainPrettyName="mb_finn" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ctr" domainName="mb_ctrl" domainPrettyName="mb_ctrl" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu1" domainName="mb_ecu1" domainPrettyName="mb_ecu1" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_dos" domainName="mb_dos" domainPrettyName="mb_dos" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu2" domainName="mb2_ecu2" domainPrettyName="mb2_ecu2" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu3" domainName="mb3_ecu3" domainPrettyName="mb3_ecu3" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="hwil_eth_finn" domainName="mb_finn" domainPrettyName="mb_finn" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ctr" domainName="mb_ctrl" domainPrettyName="mb_ctrl" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu1" domainName="mb_ecu1" domainPrettyName="mb_ecu1" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_dos" domainName="mb_dos" domainPrettyName="mb_dos" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu2" domainName="mb2_ecu2" domainPrettyName="mb2_ecu2" appBuildConfig="Debug"/>
+      <applications name="hwil_eth_mb_ecu3" domainName="mb3_ecu3" domainPrettyName="mb3_ecu3" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.339494660">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="hwil_eth_finn" domainName="mb_finn" domainPrettyName="mb_finn" appBuildConfig="Release"/>
+      <applications name="hwil_eth_mb_ctr" domainName="mb_ctrl" domainPrettyName="mb_ctrl" appBuildConfig="Release"/>
+      <applications name="hwil_eth_mb_ecu1" domainName="mb_ecu1" domainPrettyName="mb_ecu1" appBuildConfig="Release"/>
+      <applications name="hwil_eth_mb_dos" domainName="mb_dos" domainPrettyName="mb_dos" appBuildConfig="Release"/>
+      <applications name="hwil_eth_mb_ecu2" domainName="mb2_ecu2" domainPrettyName="mb2_ecu2" appBuildConfig="Release"/>
+      <applications name="hwil_eth_mb_ecu3" domainName="mb3_ecu3" domainPrettyName="mb3_ecu3" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

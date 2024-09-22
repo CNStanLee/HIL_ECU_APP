@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ecu1" location="/home/temporary/Desktop/ChanghongTemp/ws2/ecu1" platform="/home/temporary/Desktop/ChanghongTemp/ws2/hwil/export/hwil/hwil.xpfm" platformUID="xilinx:nexys_video::0.0(custom)" systemProject="hwil_app_system" sysConfig="hwil" runtime="C/C++" cpu="mb1_ecu1" cpuInstance="microblaze_1" os="standalone" mssSignature="4258648698184b08e2e5c4f1584fdc18">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.57273083">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1403906650" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

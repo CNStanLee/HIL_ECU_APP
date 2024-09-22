@@ -1,0 +1,283 @@
+/*
+ * @Author: Changhongli lic9@tcd.com
+ * @Date: 2024-03-18 18:51:23
+ * @LastEditors: Changhongli lic9@tcd.com
+ * @LastEditTime: 2024-05-08 17:06:39
+ * @FilePath: /workspace/mb_finn_app/src/backupmain
+ * @Description: 
+ * 
+ */
+/*
+ * @Author: Changhongli lic9@tcd.com
+ * @Date: 2024-03-18 18:51:23
+ * @LastEditors: Changhongli lic9@tcd.com
+ * @LastEditTime: 2024-03-18 18:54:55
+ * @FilePath: /microblaze20183.sdk/mb_finn/src/mb_finn_main.c
+ * @Description: 
+ * 
+ */
+/*
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A 
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR 
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION 
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE 
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO 
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO 
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE 
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY 
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+/*
+ * 
+ *
+ * This file is a generated sample test application.
+ *
+ * This application is intended to test and/or illustrate some 
+ * functionality of your system.  The contents of this file may
+ * vary depending on the IP in your system and may use existing
+ * IP driver functions.  These drivers will be generated in your
+ * SDK application project when you run the "Generate Libraries" menu item.
+ *
+ */
+
+#include <stdio.h>
+
+#include "xil_printf.h"
+#include "sleep.h"
+#include "xil_exception.h"
+#include "xdebug.h"
+#include "xparameters.h"
+#include "xintc.h"
+#include "xil_cache.h"
+#include "sleep.h"
+#include "can_drv.h"
+
+
+
+#define MAX_COUNT 1000
+#define BUFFER_SIZE 16
+#define BUFFER_SIZE_40 40
+#define BUFFER_SIZE_4 4
+
+/*
+ * AXI DEVICE DEFINE
+ * */
+// INTC
+#define INTC_ID        XPAR_MICROBLAZE_4_AXI_INTC_DEVICE_ID
+// CAN Controller
+#define CAN_0_BASEADDR XPAR_MB_FINN_CAN_CONTROLLER_S00_AXI_BASEADDR
+#define CAN_0_INTR_ID XPAR_INTC_0_CAN_CONTROLLER_0_VEC_ID
+
+/*
+ * AXI DECIVE INSTANCE
+ * */
+
+static XIntc Intc;
+
+/*
+ * Structure
+ * */
+struct can_data_frame trans_frame;
+struct can_data_frame recv_frame;
+
+/*
+ * FUNCTION DECLARE
+ * */
+
+// IRQ handler
+void can_0_irq_handler(void *InstancePtr);
+
+// General Functions
+void intc_init(){
+	print("Initialize interrupt controller \r\n");
+    XIntc_Initialize(&Intc, INTC_ID);
+}
+
+void cache_init(){
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
+}
+
+void intc_setup(){
+	print("Initialize interrupt setup \r\n");
+    XIntc_Start(&Intc, XIN_REAL_MODE);	//start INTC controller
+    // Interrupt instance begin
+
+    XIntc_Enable(&Intc,CAN_0_INTR_ID);
+    // Interrupt instance end
+    Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+	(Xil_ExceptionHandler)XIntc_InterruptHandler , &Intc);
+	Xil_ExceptionEnable();
+}
+
+void can_device_init(){
+	can_init(CAN_0_BASEADDR);
+	XIntc_Connect(&Intc, CAN_0_INTR_ID,(XInterruptHandler)can_0_irq_handler, NULL);
+}
+
+void device_init(){
+	print("Initialize Device \r\n");
+	intc_init();
+	cache_init();
+	can_device_init();
+	intc_setup();
+}
+
+/*
+ * FIFO
+ * */
+
+static void inline write_axis(volatile unsigned int *a)
+{
+    register int a0,  a1,  a2,  a3;
+    register int a4,  a5,  a6,  a7;
+    register int a8,  a9,  a10, a11;
+    register int a12, a13, a14, a15;
+
+    a3  = a[3];  a1  = a[1];  a2  = a[2];  a0  = a[0];
+    a7  = a[7];  a5  = a[5];  a6  = a[6];  a4  = a[4];
+    a11 = a[11]; a9  = a[9];  a10 = a[10]; a8  = a[8];
+    a15 = a[15]; a13 = a[13]; a14 = a[14]; a12 = a[12];
+
+    putfsl(a0,  0); putfsl(a1,  0); putfsl(a2,  0); putfsl(a3,  0);
+    putfsl(a4,  0); putfsl(a5,  0); putfsl(a6,  0); putfsl(a7,  0);
+    putfsl(a8,  0); putfsl(a9,  0); putfsl(a10, 0); putfsl(a11, 0);
+    putfsl(a12, 0); putfsl(a13, 0); putfsl(a14, 0); putfsl(a15, 0);
+}
+
+/*
+ * Read 16 32-bit words as efficiently as possible.
+ */
+static void inline read_axis(volatile unsigned int *a)
+{
+    register int a0,  a1,  a2,  a3;
+    register int a4,  a5,  a6,  a7;
+    register int a8,  a9,  a10, a11;
+    register int a12, a13, a14, a15;
+
+    getfsl(a0,  0); getfsl(a1,  0); getfsl(a2,  0); getfsl(a3,  0);
+    getfsl(a4,  0); getfsl(a5,  0); getfsl(a6,  0); getfsl(a7,  0);
+    getfsl(a8,  0); getfsl(a9,  0); getfsl(a10, 0); getfsl(a11, 0);
+    getfsl(a12, 0); getfsl(a13, 0); getfsl(a14, 0); getfsl(a15, 0);
+
+    a[3]  = a3;  a[1]  = a1;  a[2]  = a2;  a[0]  = a0;
+    a[7]  = a7;  a[5]  = a5;  a[6]  = a6;  a[4]  = a4;
+    a[11] = a11; a[9]  = a9;  a[10] = a10; a[8]  = a8;
+    a[15] = a15; a[13] = a13; a[14] = a14; a[12] = a12;
+}
+
+
+/*
+ * Write 40 bytes to the FIFO
+ */
+
+//static void inline write_axis_40(volatile unsigned int *a)
+//{
+//    register int a0, a1, a2, a3;
+//    register int a4, a5, a6, a7;
+//    register int a8, a9, a10, a11;
+//    register int a12, a13, a14, a15;
+//    register int a16, a17, a18, a19;
+//    register int a20, a21, a22, a23;
+//    register int a24, a25, a26, a27;
+//    register int a28, a29, a30, a31;
+//    register int a32, a33, a34, a35;
+//    register int a36, a37, a38, a39;
+//
+//    a3  = a[3];  a1  = a[1];  a2  = a[2];  a0  = a[0];
+//    a7  = a[7];  a5  = a[5];  a6  = a[6];  a4  = a[4];
+//    a11 = a[11]; a9  = a[9];  a10 = a[10]; a8  = a[8];
+//    a15 = a[15]; a13 = a[13]; a14 = a[14]; a12 = a[12];
+//    a19 = a[19]; a17 = a[17]; a18 = a[18]; a16 = a[16];
+//    a23 = a[23]; a21 = a[21]; a22 = a[22]; a20 = a[20];
+//    a27 = a[27]; a25 = a[25]; a26 = a[26]; a24 = a[24];
+//    a31 = a[31]; a29 = a[29]; a30 = a[30]; a28 = a[28];
+//    a35 = a[35]; a33 = a[33]; a34 = a[34]; a32 = a[32];
+//    a39 = a[39]; a37 = a[37]; a38 = a[38]; a36 = a[36];
+//
+//    putfsl(a0,  0); putfsl(a1,  0); putfsl(a2,  0); putfsl(a3,  0);
+//    putfsl(a4,  0); putfsl(a5,  0); putfsl(a6,  0); putfsl(a7,  0);
+//    putfsl(a8,  0); putfsl(a9,  0); putfsl(a10, 0); putfsl(a11, 0);
+//    putfsl(a12, 0); putfsl(a13, 0); putfsl(a14, 0); putfsl(a15, 0);
+//    putfsl(a16, 0); putfsl(a17, 0); putfsl(a18, 0); putfsl(a19, 0);
+//    putfsl(a20, 0); putfsl(a21, 0); putfsl(a22, 0); putfsl(a23, 0);
+//    putfsl(a24, 0); putfsl(a25, 0); putfsl(a26, 0); putfsl(a27, 0);
+//    putfsl(a28, 0); putfsl(a29, 0); putfsl(a30, 0); putfsl(a31, 0);
+//    putfsl(a32, 0); putfsl(a33, 0); putfsl(a34, 0); putfsl(a35, 0);
+//    putfsl(a36, 0); putfsl(a37, 0); putfsl(a38, 0); putfsl(a39, 0);
+//}
+//
+///*
+// * Read 4 bytes from the FIFO
+// */
+//
+//static void inline read_axis_4(volatile unsigned int *a)
+//{
+//    register int a0, a1, a2, a3;
+//
+//    getfsl(a0, 0); getfsl(a1, 0); getfsl(a2, 0); getfsl(a3, 0);
+//
+//    a[3] = a3; a[1] = a1; a[2] = a2; a[0] = a0;
+//}
+
+/*
+ * Main function
+ */
+
+//int main (){
+//    volatile unsigned int outbuffer[BUFFER_SIZE_40] = {
+//        0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
+//        0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13,
+//        0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d,
+//        0x1e, 0x1f, 0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27
+//    };
+//    volatile unsigned int inbuffer[BUFFER_SIZE_4];
+//    int count = 0;
+//    unsigned int buf2;
+//
+//    while(count++ < MAX_COUNT){
+//        write_axis_40(outbuffer);
+//        read_axis_4(inbuffer);
+//        buf2 = inbuffer[2];
+//        outbuffer[2]++;
+//        printf("%d", buf2);
+//    }
+//
+//
+//}
+
+
+
+ int main ()
+ {
+    device_init();
+    volatile unsigned int outbuffer[BUFFER_SIZE] = {
+       0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf
+    };
+    volatile unsigned int inbuffer[BUFFER_SIZE];
+    int count = 0;
+    unsigned int buf2;
+
+    while (count++ < MAX_COUNT) {
+         write_axis(outbuffer);
+         read_axis(inbuffer);
+         buf2 = inbuffer[2];
+         outbuffer[2]++;
+         printf("%d", buf2);
+     }
+
+
+    return 0;
+ }
+
+void can_0_irq_handler(void *InstancePtr){
+	can_rxd_frame(&recv_frame);
+    ecu_process_logic(&recv_frame);
+	//printf("C\r\n");
+}

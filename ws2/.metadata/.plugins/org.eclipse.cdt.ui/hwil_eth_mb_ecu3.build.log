@@ -1,0 +1,122 @@
+04:12:50 **** Build of configuration Debug for project hwil_eth_mb_ecu3 ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb3_ecu3/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:94:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   94 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:9:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:98:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   98 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:103:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  103 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:216:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  216 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:305:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  305 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:305:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:305:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:328:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  328 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/ecu3_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecu3_main.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb3_ecu3/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ecu3_main.d" -MT"src/ecu3_main.o" -o "src/ecu3_main.o" "../src/ecu3_main.c"
+In file included from ../src/ecu3_main.c:17:
+../src/can_drv.h:254:8: warning: parameter names (without types) in function declaration
+  254 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/ecu3_main.c: In function 'timer_init':
+../src/ecu3_main.c:25:29: error: 'XPAR_MB3_T1_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BRAM_1_DEVICE_ID'?
+   25 | #define TMRCTR_DEVICE_ID    XPAR_MB3_T1_DEVICE_ID
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:104:32: note: in expansion of macro 'TMRCTR_DEVICE_ID'
+  104 |     XTmrCtr_Initialize(&Timer, TMRCTR_DEVICE_ID);
+      |                                ^~~~~~~~~~~~~~~~
+../src/ecu3_main.c:25:29: note: each undeclared identifier is reported only once for each function it appears in
+   25 | #define TMRCTR_DEVICE_ID    XPAR_MB3_T1_DEVICE_ID
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:104:32: note: in expansion of macro 'TMRCTR_DEVICE_ID'
+  104 |     XTmrCtr_Initialize(&Timer, TMRCTR_DEVICE_ID);
+      |                                ^~~~~~~~~~~~~~~~
+../src/ecu3_main.c:109:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  109 |     XTmrCtr_SetHandler(&Timer, timer_intr_handler,&Timer);
+      |                                ^~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                void (*)(void *)
+In file included from ../src/ecu3_main.c:13:
+/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb3_ecu3/bspinclude/include/xtmrctr.h:319:63: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+  319 | void XTmrCtr_SetHandler(XTmrCtr *InstancePtr, XTmrCtr_Handler FuncPtr,
+      |                                               ~~~~~~~~~~~~~~~~^~~~~~~
+../src/ecu3_main.c: In function 'intc_init':
+../src/ecu3_main.c:23:24: error: 'XPAR_MICROBLAZE_3_AXI_INTC_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MICROBLAZE_3_AXI_INTC_DEVICE_ID'?
+   23 | #define INTC_ID        XPAR_MICROBLAZE_3_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:23:24: note: in definition of macro 'INTC_ID'
+   23 | #define INTC_ID        XPAR_MICROBLAZE_3_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c: In function 'gpio_init':
+../src/ecu3_main.c:28:23: error: 'XPAR_MB3_GPIO_LED_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB3_GPIO_LED_DEVICE_ID'?
+   28 | #define LED_DEVICE_ID XPAR_MB3_GPIO_LED_DEVICE_ID
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:128:39: note: in expansion of macro 'LED_DEVICE_ID'
+  128 |         XGpio_Initialize(&GpioOutput, LED_DEVICE_ID);
+      |                                       ^~~~~~~~~~~~~
+../src/ecu3_main.c:34:22: error: 'XPAR_MB3_GPIO_SW2_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB3_GPIO_SW2_DEVICE_ID'?
+   34 | #define SW_DEVICE_ID XPAR_MB3_GPIO_SW2_DEVICE_ID
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:132:34: note: in expansion of macro 'SW_DEVICE_ID'
+  132 |     XGpio_Initialize(&GpioInput, SW_DEVICE_ID);
+      |                                  ^~~~~~~~~~~~
+../src/ecu3_main.c: In function 'can_device_init':
+../src/ecu3_main.c:30:24: error: 'XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR'?
+   30 | #define CAN_0_BASEADDR XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:30:24: note: in definition of macro 'CAN_0_BASEADDR'
+   30 | #define CAN_0_BASEADDR XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c: In function 'main':
+../src/ecu3_main.c:30:24: error: 'XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR'?
+   30 | #define CAN_0_BASEADDR XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecu3_main.c:30:24: note: in definition of macro 'CAN_0_BASEADDR'
+   30 | #define CAN_0_BASEADDR XPAR_MB3_CAN_CONTROLLER_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/ecu3_main.o] Error 1
+src/subdir.mk:39: recipe for target 'src/ecu3_main.o' failed
+
+04:12:50 Build Finished (took 213ms)
+

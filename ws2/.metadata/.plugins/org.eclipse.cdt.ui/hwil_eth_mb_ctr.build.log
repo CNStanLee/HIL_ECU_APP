@@ -1,0 +1,172 @@
+04:12:48 **** Build of configuration Debug for project hwil_eth_mb_ctr ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_ctrl/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:95:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   95 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:8:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:99:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   99 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:104:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  104 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:217:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  217 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:306:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  306 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:306:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:329:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  329 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/control_node_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_node_main.o" -I/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_ctrl/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/control_node_main.d" -MT"src/control_node_main.o" -o "src/control_node_main.o" "../src/control_node_main.c"
+In file included from ../src/control_node_main.c:18:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'timer_init':
+../src/control_node_main.c:36:29: error: 'XPAR_MB0_T1_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_MBOX_1_DEVICE_ID'?
+   36 | #define TMRCTR_DEVICE_ID    XPAR_MB0_T1_DEVICE_ID
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:130:32: note: in expansion of macro 'TMRCTR_DEVICE_ID'
+  130 |     XTmrCtr_Initialize(&Timer, TMRCTR_DEVICE_ID);
+      |                                ^~~~~~~~~~~~~~~~
+../src/control_node_main.c:36:29: note: each undeclared identifier is reported only once for each function it appears in
+   36 | #define TMRCTR_DEVICE_ID    XPAR_MB0_T1_DEVICE_ID
+      |                             ^~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:130:32: note: in expansion of macro 'TMRCTR_DEVICE_ID'
+  130 |     XTmrCtr_Initialize(&Timer, TMRCTR_DEVICE_ID);
+      |                                ^~~~~~~~~~~~~~~~
+../src/control_node_main.c:135:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  135 |     XTmrCtr_SetHandler(&Timer, timer_intr_hander,&Timer);
+      |                                ^~~~~~~~~~~~~~~~~
+      |                                |
+      |                                void (*)(void *)
+In file included from ../src/control_node_main.c:14:
+/home/temporary/Desktop/ChanghongTemp/ws2/hwil_eth/export/hwil_eth/sw/hwil_eth/mb_ctrl/bspinclude/include/xtmrctr.h:319:63: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+  319 | void XTmrCtr_SetHandler(XTmrCtr *InstancePtr, XTmrCtr_Handler FuncPtr,
+      |                                               ~~~~~~~~~~~~~~~~^~~~~~~
+../src/control_node_main.c: In function 'intc_init':
+../src/control_node_main.c:34:24: error: 'XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MICROBLAZE_0_AXI_INTC_DEVICE_ID'?
+   34 | #define INTC_ID        XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:34:24: note: in definition of macro 'INTC_ID'
+   34 | #define INTC_ID        XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'gpio_init':
+../src/control_node_main.c:154:39: error: 'XPAR_MB0_GPIO_LED_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB0_GPIO_LED_DEVICE_ID'?
+  154 |         XGpio_Initialize(&GpioOutput, XPAR_MB0_GPIO_LED_DEVICE_ID);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       XPAR_BD1_0_MB0_GPIO_LED_DEVICE_ID
+../src/control_node_main.c:41:32: error: 'XPAR_MB0_DOS_CMD_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB0_DOS_CMD_DEVICE_ID'?
+   41 | #define DOS_CMD_GPIO_DEVICE_ID XPAR_MB0_DOS_CMD_DEVICE_ID
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:157:40: note: in expansion of macro 'DOS_CMD_GPIO_DEVICE_ID'
+  157 |         XGpio_Initialize(&GpioOutput2, DOS_CMD_GPIO_DEVICE_ID);
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:51:27: error: 'XPAR_MB0_FINN_IN_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_MB0_FINN_IN_DEVICE_ID'?
+   51 | #define FINN_IN_DEVICE_ID XPAR_MB0_FINN_IN_DEVICE_ID
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:160:34: note: in expansion of macro 'FINN_IN_DEVICE_ID'
+  160 |     XGpio_Initialize(&GpioInput, FINN_IN_DEVICE_ID);
+      |                                  ^~~~~~~~~~~~~~~~~
+../src/control_node_main.c:53:28: error: 'XPAR_AXI_GPIO_ATKFLAG_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_BD1_0_AXI_GPIO_ATKFLAG_DEVICE_ID'?
+   53 | #define ATK_FLAG_DEVICE_ID XPAR_AXI_GPIO_ATKFLAG_DEVICE_ID
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:163:40: note: in expansion of macro 'ATK_FLAG_DEVICE_ID'
+  163 |         XGpio_Initialize(&GpioOutput3, ATK_FLAG_DEVICE_ID);
+      |                                        ^~~~~~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'can_device_init':
+../src/control_node_main.c:46:24: error: 'XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_CAN_CONTROLLER_0_S00_AXI_BASEADDR'?
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:46:24: note: in definition of macro 'CAN_0_BASEADDR'
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:47:24: error: 'XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_CAN_CONTROLLER_1_S00_AXI_BASEADDR'?
+   47 | #define CAN_1_BASEADDR XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:47:24: note: in definition of macro 'CAN_1_BASEADDR'
+   47 | #define CAN_1_BASEADDR XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'main':
+../src/control_node_main.c:227:43: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  227 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:19:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   18 | #include "can_drv.h"
+  +++ |+#include <stdlib.h>
+   19 | 
+../src/control_node_main.c:227:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  227 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:227:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/control_node_main.c:46:24: error: 'XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_CAN_CONTROLLER_0_S00_AXI_BASEADDR'?
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:46:24: note: in definition of macro 'CAN_0_BASEADDR'
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:47:24: error: 'XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_CAN_CONTROLLER_1_S00_AXI_BASEADDR'?
+   47 | #define CAN_1_BASEADDR XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:47:24: note: in definition of macro 'CAN_1_BASEADDR'
+   47 | #define CAN_1_BASEADDR XPAR_CAN_CONTROLLER_1_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:263:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  263 |             printf("attack_detected: %d\r\n", switch_state);
+      |                                      ~^       ~~~~~~~~~~~~
+      |                                       |       |
+      |                                       int     u32 {aka long unsigned int}
+      |                                      %ld
+../src/control_node_main.c: In function 'uart_handler':
+../src/control_node_main.c:306:8: warning: unused variable 'Read_data' [-Wunused-variable]
+  306 |     u8 Read_data[MAX_COMMAND_LENGTH];
+      |        ^~~~~~~~~
+../src/control_node_main.c: In function 'can_0_irq_handler':
+../src/control_node_main.c:46:24: error: 'XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BD1_0_CAN_CONTROLLER_0_S00_AXI_BASEADDR'?
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_node_main.c:46:24: note: in definition of macro 'CAN_0_BASEADDR'
+   46 | #define CAN_0_BASEADDR XPAR_CAN_CONTROLLER_0_S00_AXI_BASEADDR
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/control_node_main.o' failed
+make: *** [src/control_node_main.o] Error 1
+
+04:12:48 Build Finished (took 213ms)
+

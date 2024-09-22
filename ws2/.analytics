@@ -1,0 +1,325 @@
+timestamp=[2024-09-17 16:02:40], mode=WORKBENCH_START, duration=0:00:10.872, duration_ms=10872, data={}
+timestamp=[2024-09-17 16:02:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.045, duration_ms=45, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-09-17 16:02:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2024-09-17 16:03:28], mode=PLATFORM_CREATION, duration=0:00:01.223, duration_ms=1223, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-17 16:03:41], mode=PLATFORM_GENERATION, duration=0:00:04.831, duration_ms=4831, data={name=hwil}
+timestamp=[2024-09-17 16:04:55], mode=PLATFORM_GENERATION, duration=0:00:07.194, duration_ms=7194, data={name=hwil}
+timestamp=[2024-09-17 16:07:03], mode=APP_CREATION, duration=0:00:02.278, duration_ms=2278, data={name=hwil_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=cpp, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:08:24], mode=APP_CREATION, duration=0:00:00.370, duration_ms=370, data={name=dos, project_type=sdk, os=standalone, processor=mb_dos, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:10:24], mode=APP_CREATION, duration=0:00:00.309, duration_ms=309, data={name=dos, project_type=sdk, os=standalone, processor=mb_dos, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:10:47], mode=APP_CREATION, duration=0:00:00.327, duration_ms=327, data={name=finn, project_type=sdk, os=standalone, processor=mb_finn, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:11:19], mode=APP_CREATION, duration=0:00:00.397, duration_ms=397, data={name=ecu1, project_type=sdk, os=standalone, processor=microblaze_1, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:11:39], mode=APP_CREATION, duration=0:00:00.388, duration_ms=388, data={name=ecu2, project_type=sdk, os=standalone, processor=microblaze_2, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:11:56], mode=APP_CREATION, duration=0:00:00.358, duration_ms=358, data={name=ecu3, project_type=sdk, os=standalone, processor=microblaze_3, runtime=C/C++, platform=hwil, application_type=application}
+timestamp=[2024-09-17 16:17:44], mode=PLATFORM_GENERATION, duration=0:00:04.737, duration_ms=4737, data={name=hwil}
+timestamp=[2024-09-17 16:17:53], mode=PLATFORM_GENERATION, duration=0:00:07.711, duration_ms=7711, data={name=hwil}
+timestamp=[2024-09-17 16:18:05], mode=PLATFORM_GENERATION, duration=0:00:04.563, duration_ms=4563, data={name=hwil}
+timestamp=[2024-09-17 16:18:13], mode=PLATFORM_GENERATION, duration=0:00:07.521, duration_ms=7521, data={name=hwil}
+timestamp=[2024-09-17 16:18:13], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:14], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:14], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:15], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:15], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:16], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-17 16:18:16], mode=BUILD, duration=0:00:00.067, duration_ms=67, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:19:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.013, duration_ms=13, data={}
+timestamp=[2024-09-20 14:19:15], mode=WORKBENCH_START, duration=0:00:07.195, duration_ms=7195, data={}
+timestamp=[2024-09-20 14:19:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.112, duration_ms=112, data={editors_count=8, platform_editors_count=1, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-20 14:19:57], mode=PLATFORM_GENERATION, duration=0:00:04.676, duration_ms=4676, data={name=hwil}
+timestamp=[2024-09-20 14:20:11], mode=PLATFORM_GENERATION, duration=0:00:10.174, duration_ms=10174, data={name=hwil}
+timestamp=[2024-09-20 14:20:54], mode=PLATFORM_GENERATION, duration=0:00:04.561, duration_ms=4561, data={name=hwil}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:20:55], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 14:21:14], mode=PLATFORM_GENERATION, duration=0:00:07.569, duration_ms=7569, data={name=hwil}
+timestamp=[2024-09-20 14:21:22], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:23], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:24], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:24], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:25], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:26], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:21:26], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:26:04], mode=PLATFORM_GENERATION, duration=0:00:04.614, duration_ms=4614, data={name=hwil}
+timestamp=[2024-09-20 14:26:17], mode=PLATFORM_GENERATION, duration=0:00:09.990, duration_ms=9990, data={name=hwil}
+timestamp=[2024-09-20 14:27:00], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:01], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:01], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:02], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:03], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:03], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 14:27:04], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:02:52], mode=PLATFORM_GENERATION, duration=0:00:09.995, duration_ms=9995, data={name=hwil}
+timestamp=[2024-09-20 15:03:21], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:22], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:23], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:23], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:24], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:24], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 15:03:25], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 19:37:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.015, duration_ms=15, data={}
+timestamp=[2024-09-20 19:37:39], mode=WORKBENCH_START, duration=0:00:07.844, duration_ms=7844, data={}
+timestamp=[2024-09-20 19:37:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.127, duration_ms=127, data={editors_count=8, platform_editors_count=1, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-20 21:00:15], mode=PLATFORM_GENERATION, duration=0:00:10.539, duration_ms=10539, data={name=hwil}
+timestamp=[2024-09-20 21:01:18], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:18], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:19], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:20], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:20], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:21], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:01:21], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:05], mode=PLATFORM_GENERATION, duration=0:00:09.898, duration_ms=9898, data={name=hwil}
+timestamp=[2024-09-20 21:33:11], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:12], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:12], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:12], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:13], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:13], mode=BUILD, duration=0:00:00.414, duration_ms=414, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:13], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:14], mode=BUILD, duration=0:00:00.414, duration_ms=414, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:14], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:15], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:15], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-20 21:33:15], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-20 21:33:16], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:04:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.013, duration_ms=13, data={}
+timestamp=[2024-09-21 11:04:33], mode=WORKBENCH_START, duration=0:00:05.119, duration_ms=5119, data={}
+timestamp=[2024-09-21 11:04:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.102, duration_ms=102, data={editors_count=8, platform_editors_count=1, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-21 11:05:11], mode=PLATFORM_GENERATION, duration=0:00:10.381, duration_ms=10381, data={name=hwil}
+timestamp=[2024-09-21 11:05:14], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:15], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:15], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:16], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:17], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:17], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:05:18], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:22], mode=PLATFORM_GENERATION, duration=0:00:04.616, duration_ms=4616, data={name=hwil}
+timestamp=[2024-09-21 11:21:22], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:22], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:22], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:22], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:23], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:23], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:23], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:21:48], mode=PLATFORM_GENERATION, duration=0:00:07.371, duration_ms=7371, data={name=hwil}
+timestamp=[2024-09-21 11:21:49], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:49], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:50], mode=BUILD, duration=0:00:00.524, duration_ms=524, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:51], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:52], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:52], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:21:53], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:29], mode=PLATFORM_GENERATION, duration=0:00:04.748, duration_ms=4748, data={name=hwil}
+timestamp=[2024-09-21 11:40:29], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:29], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:30], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:30], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:30], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:30], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:30], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 11:40:38], mode=PLATFORM_GENERATION, duration=0:00:07.546, duration_ms=7546, data={name=hwil}
+timestamp=[2024-09-21 11:40:40], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:40], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:41], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:42], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:42], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:43], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:40:44], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:03], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:04], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:04], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:04], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:05], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:05], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 11:41:06], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:19:47], mode=WORKBENCH_START, duration=0:00:08.010, duration_ms=8010, data={}
+timestamp=[2024-09-21 12:19:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.115, duration_ms=115, data={editors_count=15, platform_editors_count=1, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-21 12:19:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2024-09-21 12:20:08], mode=PLATFORM_GENERATION, duration=0:00:05.557, duration_ms=5557, data={name=hwil}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:09], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:20:28], mode=PLATFORM_GENERATION, duration=0:00:07.488, duration_ms=7488, data={name=hwil}
+timestamp=[2024-09-21 12:20:32], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:32], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:33], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:34], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:35], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:35], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:20:36], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:44], mode=PLATFORM_GENERATION, duration=0:00:04.560, duration_ms=4560, data={name=hwil}
+timestamp=[2024-09-21 12:34:44], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:44], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:45], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:45], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:45], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:45], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:45], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:34:54], mode=PLATFORM_GENERATION, duration=0:00:07.418, duration_ms=7418, data={name=hwil}
+timestamp=[2024-09-21 12:34:55], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:56], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:57], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:57], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:58], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:59], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:34:59], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:05], mode=PLATFORM_GENERATION, duration=0:00:04.612, duration_ms=4612, data={name=hwil}
+timestamp=[2024-09-21 12:42:05], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:05], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:05], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:05], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:06], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:06], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:06], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:42:16], mode=PLATFORM_GENERATION, duration=0:00:07.476, duration_ms=7476, data={name=hwil}
+timestamp=[2024-09-21 12:42:17], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:17], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:18], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:19], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:20], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:20], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:42:21], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:15], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:15], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:16], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:16], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:17], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:17], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:17], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:18], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:26], mode=PLATFORM_GENERATION, duration=0:00:04.563, duration_ms=4563, data={name=hwil}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:26], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:27], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:52:37], mode=PLATFORM_GENERATION, duration=0:00:07.476, duration_ms=7476, data={name=hwil}
+timestamp=[2024-09-21 12:52:38], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:38], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:39], mode=BUILD, duration=0:00:00.421, duration_ms=421, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:40], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:41], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:41], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:52:42], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:57:36], mode=WORKBENCH_START, duration=0:00:05.616, duration_ms=5616, data={}
+timestamp=[2024-09-21 12:57:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.112, duration_ms=112, data={editors_count=10, platform_editors_count=2, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-21 12:57:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.015, duration_ms=15, data={}
+timestamp=[2024-09-21 12:58:43], mode=PLATFORM_GENERATION, duration=0:00:05.679, duration_ms=5679, data={name=hwil}
+timestamp=[2024-09-21 12:58:43], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:43], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:44], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:44], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:44], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:44], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:44], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 12:58:52], mode=PLATFORM_GENERATION, duration=0:00:07.652, duration_ms=7652, data={name=hwil}
+timestamp=[2024-09-21 12:58:53], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:54], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:55], mode=BUILD, duration=0:00:00.572, duration_ms=572, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:56], mode=BUILD, duration=0:00:00.468, duration_ms=468, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:56], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:57], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:58:58], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:50], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:50], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:51], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:51], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:51], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:52], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 12:59:52], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 13:32:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2024-09-21 13:32:10], mode=WORKBENCH_START, duration=0:00:13.781, duration_ms=13781, data={}
+timestamp=[2024-09-21 13:32:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.126, duration_ms=126, data={editors_count=10, platform_editors_count=2, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-21 14:28:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.018, duration_ms=18, data={}
+timestamp=[2024-09-21 14:28:27], mode=WORKBENCH_START, duration=0:00:07.384, duration_ms=7384, data={}
+timestamp=[2024-09-21 14:28:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.121, duration_ms=121, data={editors_count=10, platform_editors_count=2, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-21 14:28:41], mode=PLATFORM_GENERATION, duration=0:00:05.560, duration_ms=5560, data={name=hwil}
+timestamp=[2024-09-21 14:28:41], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:41], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:42], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:42], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:42], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:42], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:42], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:28:53], mode=PLATFORM_GENERATION, duration=0:00:07.538, duration_ms=7538, data={name=hwil}
+timestamp=[2024-09-21 14:28:54], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:54], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:55], mode=BUILD, duration=0:00:00.568, duration_ms=568, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:56], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:57], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:57], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:28:58], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:33:56], mode=PLATFORM_GENERATION, duration=0:00:04.722, duration_ms=4722, data={name=hwil}
+timestamp=[2024-09-21 14:33:56], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=finn, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:56], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=dos, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:57], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=ecu3, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:57], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ecu2, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:57], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ecu1, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:57], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=hwil_app, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:33:57], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=hwil_app_system, configuration=Debug, clean_build=true}
+timestamp=[2024-09-21 14:34:06], mode=PLATFORM_GENERATION, duration=0:00:07.530, duration_ms=7530, data={name=hwil}
+timestamp=[2024-09-21 14:34:07], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:07], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:08], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:09], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:09], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:10], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-21 14:34:11], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 03:59:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.014, duration_ms=14, data={}
+timestamp=[2024-09-22 03:59:45], mode=WORKBENCH_START, duration=0:00:22.039, duration_ms=22039, data={}
+timestamp=[2024-09-22 03:59:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.125, duration_ms=125, data={editors_count=11, platform_editors_count=2, projects_count=9, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,dos,ecu1,ecu2,ecu3,finn,hwil,hwil_app,hwil_app_system}
+timestamp=[2024-09-22 04:03:31], mode=PLATFORM_CREATION, duration=0:00:01.320, duration_ms=1320, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-22 04:06:04], mode=PLATFORM_GENERATION, duration=0:00:07.557, duration_ms=7557, data={name=hwil_eth}
+timestamp=[2024-09-22 04:07:33], mode=APP_CREATION, duration=0:00:00.917, duration_ms=917, data={name=hwil_eth_finn, project_type=sdk, os=standalone, processor=bd1_0_mb_finn, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:08:16], mode=APP_CREATION, duration=0:00:00.420, duration_ms=420, data={name=hwil_eth_mb_ctr, project_type=sdk, os=standalone, processor=bd1_0_microblaze_0, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:08:47], mode=APP_CREATION, duration=0:00:00.451, duration_ms=451, data={name=hwil_eth_mb_ecu1, project_type=sdk, os=standalone, processor=bd1_0_microblaze_1, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:09:34], mode=APP_CREATION, duration=0:00:00.407, duration_ms=407, data={name=hwil_eth_mb_dos, project_type=sdk, os=standalone, processor=bd1_0_mb_dos, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:10:02], mode=APP_CREATION, duration=0:00:00.493, duration_ms=493, data={name=hwil_eth_mb_ecu2, project_type=sdk, os=standalone, processor=bd1_0_microblaze_2, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:10:21], mode=APP_CREATION, duration=0:00:00.443, duration_ms=443, data={name=hwil_eth_mb_ecu3, project_type=sdk, os=standalone, processor=bd1_0_microblaze_3, runtime=C/C++, platform=hwil_eth, application_type=application}
+timestamp=[2024-09-22 04:12:47], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=hwil_eth_finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:12:48], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=hwil_eth_mb_ctr, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:12:48], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=hwil_eth_mb_dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:12:49], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=hwil_eth_mb_ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:12:49], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=hwil_eth_mb_ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:12:50], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=hwil_eth_mb_ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:07], mode=PLATFORM_GENERATION, duration=0:00:10.092, duration_ms=10092, data={name=hwil}
+timestamp=[2024-09-22 04:46:23], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:23], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:24], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:25], mode=BUILD, duration=0:00:00.421, duration_ms=421, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:25], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:26], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 04:46:27], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:42:55], mode=PLATFORM_GENERATION, duration=0:00:10.155, duration_ms=10155, data={name=hwil}
+timestamp=[2024-09-22 05:43:22], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:23], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:23], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:24], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:24], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:25], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 05:43:26], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:54], mode=PLATFORM_GENERATION, duration=0:00:10.189, duration_ms=10189, data={name=hwil}
+timestamp=[2024-09-22 06:49:55], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:56], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:57], mode=BUILD, duration=0:00:00.421, duration_ms=421, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:58], mode=BUILD, duration=0:00:00.421, duration_ms=421, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:59], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:49:59], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 06:50:00], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=hwil_app_system, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:58:55], mode=PLATFORM_GENERATION, duration=0:00:10.246, duration_ms=10246, data={name=hwil}
+timestamp=[2024-09-22 12:59:01], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=finn, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:02], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=dos, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:02], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=ecu3, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:03], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=ecu2, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:04], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ecu1, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:04], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=hwil_app, configuration=Debug, clean_build=false}
+timestamp=[2024-09-22 12:59:05], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=hwil_app_system, configuration=Debug, clean_build=false}
