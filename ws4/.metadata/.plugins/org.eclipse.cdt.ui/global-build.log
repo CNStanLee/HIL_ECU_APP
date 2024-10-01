@@ -1,0 +1,329 @@
+00:57:00 **** Build of project pl4 ****
+buildplatform.sh 46533 pl4  
+XSDB Server Channel: tcfchan#16
+Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+make --no-print-directory seq_libs
+
+Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+ -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/can_controller_v1_0/src
+
+make -C microblaze_0/libsrc/can_controller_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+ions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Compiling can_controller...
+
+can_controller_selftest.c: In function 'CAN_CONTROLLER_Reg_SelfTest':
+can_controller_selftest.c:52:70: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   52 |           if ( CAN_CONTROLLER_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+      |                                                                      ^~
+can_controller_selftest.c:36:13: warning: unused variable 'Index' [-Wunused-variable]
+   36 |         int Index;
+      |             ^~~~~
+/tools2/Xilinx/Vitis/2023.2/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-ar.real: creating ../../../lib/libxil.a
+Finished building libraries sequentially.
+
+make -j 10 --no-print-directory par_libs
+
+Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+ -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/bram_v4_9/src
+
+Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/intc_v3_17/src
+
+Running Make libs in microblaze_0/libsrc/gpio_v4_10/src
+
+make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/mbox_v4_6/src
+
+make -C microblaze_0/libsrc/mbox_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/standalone_v9_0/src
+
+make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+ -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src
+
+Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src
+
+make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+microblaze_sleep.c:82:9: note: '#pragma message: For the sleep routines, assembly instructions are used'
+   82 | #pragma message ("For the sleep routines, assembly instructions are used")
+      |         ^~~~~~~
+DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+Finished building libraries parallelly.
+
+make --no-print-directory archive
+
+mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xmbox.o microblaze_0/lib/x
+mbox_g.o microblaze_0/lib/xmbox_sinit.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.
+o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o 
+microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlit
+e.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_
+selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+Finished building libraries
+
+00:57:05 **** Build of configuration Debug for project hwil_app ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:95:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   95 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:8:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:99:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   99 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:104:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  104 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:217:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  217 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:306:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  306 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:306:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:329:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  329 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/control_node_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_node_main.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/control_node_main.d" -MT"src/control_node_main.o" -o "src/control_node_main.o" "../src/control_node_main.c"
+In file included from ../src/control_node_main.c:18:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'timer_init':
+../src/control_node_main.c:136:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  136 |     XTmrCtr_SetHandler(&Timer, timer_intr_hander,&Timer);
+      |                                ^~~~~~~~~~~~~~~~~
+      |                                |
+      |                                void (*)(void *)
+In file included from ../src/control_node_main.c:14:
+/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include/xtmrctr.h:319:63: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+  319 | void XTmrCtr_SetHandler(XTmrCtr *InstancePtr, XTmrCtr_Handler FuncPtr,
+      |                                               ~~~~~~~~~~~~~~~~^~~~~~~
+../src/control_node_main.c: In function 'main':
+../src/control_node_main.c:228:43: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  228 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:19:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   18 | #include "can_drv.h"
+  +++ |+#include <stdlib.h>
+   19 | 
+../src/control_node_main.c:228:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  228 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:228:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/control_node_main.c: In function 'uart_handler':
+../src/control_node_main.c:323:8: warning: unused variable 'Read_data' [-Wunused-variable]
+  323 |     u8 Read_data[MAX_COMMAND_LENGTH];
+      |        ^~~~~~~~~
+Finished building: ../src/control_node_main.c
+ 
+Building file: ../src/gpio_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_drv.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_drv.d" -MT"src/gpio_drv.o" -o "src/gpio_drv.o" "../src/gpio_drv.c"
+Finished building: ../src/gpio_drv.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hwil_app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hwil_app.elf" ./src/can_drv.o ./src/control_node_main.o ./src/gpio_drv.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hwil_app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size hwil_app.elf  |tee "hwil_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102844	   1924	   3728	 108496	  1a7d0	hwil_app.elf
+Finished building: hwil_app.elf.size
+ 

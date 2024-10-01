@@ -1,0 +1,2362 @@
+TRACE::2024-10-01.00:33:35::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:35::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:35::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:35::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:35::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:35::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:35::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened new HwDB with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4"
+		}]
+}
+TRACE::2024-10-01.00:33:36::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-10-01.00:33:36::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4"
+		}]
+}
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWDomain::checking for install qemu data   : 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-10-01.00:33:36::SCWMssOS::No sw design opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::mss does not exists at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Creating sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Adding the swdes entry, created swdb /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss with des name /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::updating the scw layer changes to swdes at   /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Writing mss at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:33:36::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-01.00:33:36::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:33:36::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-10-01.00:33:36::SCWMssOS::Writing the mss file completed /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-10-01.00:33:36::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:33:36::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:33:36::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:33:36::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:33:36::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:33:36::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:33:36::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:33:36::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:33:36::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:33:36::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:33:36::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:33:36::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-10-01.00:33:36::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-10-01.00:33:36::SCWMssOS::Copying to export directory.
+TRACE::2024-10-01.00:33:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-01.00:33:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-10-01.00:33:36::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-10-01.00:33:36::SCWSystem::Completed Processing the sysconfig pl4
+LOG::2024-10-01.00:33:36::SCWPlatform::Completed generating the artifacts for system configuration pl4
+TRACE::2024-10-01.00:33:36::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-01.00:33:36::SCWSystem::Writing the bif file for system config pl4
+TRACE::2024-10-01.00:33:36::SCWSystem::dir created 
+TRACE::2024-10-01.00:33:36::SCWSystem::Writing the bif 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-01.00:33:36::SCWPlatform::Completed generating the platform
+TRACE::2024-10-01.00:33:36::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-01.00:33:36::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-01.00:33:36::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:33:36::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Opened existing hwdb bd1_wrapper_1
+TRACE::2024-10-01.00:33:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:36::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:36::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-01.00:33:36::SCWPlatform::Clearing the existing platform
+TRACE::2024-10-01.00:33:36::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-10-01.00:33:36::SCWMssOS::Removing the swdes entry for  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:36::SCWSystem::Clearing the domains completed.
+TRACE::2024-10-01.00:33:36::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform location is /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Removing the HwDB with name /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:36::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:36::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened new HwDB with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWReader::Active system found as  pl4
+TRACE::2024-10-01.00:33:37::SCWReader::Handling sysconfig pl4
+TRACE::2024-10-01.00:33:37::SCWDomain::checking for install qemu data   : 
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:37::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-10-01.00:33:37::SCWMssOS::No sw design opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::mss exists loading the mss file  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::Opened the sw design from mss  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::Adding the swdes entry /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-10-01.00:33:37::SCWMssOS::updating the scw layer about changes
+TRACE::2024-10-01.00:33:37::SCWMssOS::Opened the sw design.  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:33:37::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:33:37::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:33:37::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-10-01.00:33:37::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:37::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:37::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:37::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:37::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:37::SCWReader::No isolation master present  
+LOG::2024-10-01.00:33:45::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:33:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:33:45::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:33:45::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:33:45::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:33:45::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:33:45::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:33:45::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:33:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:33:45::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:45::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:45::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:45::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:33:45::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:33:45::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:33:45::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:33:45::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:33:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:33:45::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:45::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:33:45::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:45::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:33:45::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:33:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:33:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:33:45::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:33:45::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:33:45::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+ERROR::2024-10-01.00:33:45::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-10-01.00:33:45::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-10-01.00:34:02::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:34:02::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:34:02::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:34:02::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:34:02::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:34:02::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:34:02::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:34:02::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:34:02::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:34:02::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:02::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:02::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:02::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:34:02::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:02::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:34:02::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:34:02::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:34:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:34:02::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:02::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:34:02::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:02::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:34:02::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:02::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:34:02::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:34:02::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:34:02::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:34:02::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+ERROR::2024-10-01.00:34:02::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-10-01.00:34:02::SCWSystem::Error in Processing the domain standalone_domain
+TRACE::2024-10-01.00:34:19::SCWMssOS::cleaning the bsp 
+TRACE::2024-10-01.00:34:19::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+ERROR::2024-10-01.00:34:19::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-10-01.00:34:27::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:34:27::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:34:27::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:34:27::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:34:27::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:34:27::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:34:27::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:34:27::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:34:27::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:34:27::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:27::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:27::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:27::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:34:27::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:27::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:34:27::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:34:27::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:34:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:34:27::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:27::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:34:27::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:27::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:34:27::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:34:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:34:27::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:34:27::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:34:27::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+ERROR::2024-10-01.00:34:27::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-10-01.00:34:27::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-10-01.00:34:46::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:34:46::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:34:46::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:34:46::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:34:46::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:34:46::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:34:46::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:34:46::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:34:46::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:34:46::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:46::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:46::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:46::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:34:46::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:34:46::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:34:46::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:34:46::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:34:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:34:46::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:46::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:34:46::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:46::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:34:46::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:34:46::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:34:46::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:34:46::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:34:46::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:34:46::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+ERROR::2024-10-01.00:34:46::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-10-01.00:34:46::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-10-01.00:35:39::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:35:39::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:35:39::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:35:39::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:35:39::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:35:39::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:35:39::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:35:39::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:35:39::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:35:39::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:39::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:39::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:39::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:35:39::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:39::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:35:39::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:35:39::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:35:39::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:39::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:39::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:35:39::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:39::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:35:39::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:35:39::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:35:39::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:35:39::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-10-01.00:35:39::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:35:39::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:35:39::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:35:39::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:35:39::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:35:39::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:35:39::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:35:39::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:35:39::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:35:39::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:35:39::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:35:39::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2024-10-01.00:35:39::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2024-10-01.00:35:39::SCWMssOS::ions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Compiling can_controller...
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:35:39::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:35:39::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:35:39::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:35:39::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:35:39::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:35:39::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:35:39::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:35:39::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:35:39::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:35:39::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:35:39::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:35:39::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:35:39::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:35:39::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:35:39::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:35:39::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:35:39::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:35:39::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:35:39::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:35:39::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:35:39::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:35:39::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:35:39::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:35:39::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:35:39::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-10-01.00:35:40::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-10-01.00:35:40::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-10-01.00:35:40::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-10-01.00:35:40::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-10-01.00:35:40::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-10-01.00:35:40::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-10-01.00:35:40::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-10-01.00:35:40::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-10-01.00:35:40::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-10-01.00:35:40::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-10-01.00:35:40::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-10-01.00:35:40::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-10-01.00:35:40::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-10-01.00:35:40::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-10-01.00:35:40::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-10-01.00:35:40::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-10-01.00:35:40::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2024-10-01.00:35:40::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2024-10-01.00:35:40::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xmbox.o microblaze_0/lib/x
+TRACE::2024-10-01.00:35:40::SCWMssOS::mbox_g.o microblaze_0/lib/xmbox_sinit.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.
+TRACE::2024-10-01.00:35:40::SCWMssOS::o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o 
+TRACE::2024-10-01.00:35:40::SCWMssOS::microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlit
+TRACE::2024-10-01.00:35:40::SCWMssOS::e.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_
+TRACE::2024-10-01.00:35:40::SCWMssOS::selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::Finished building libraries
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::Copying to export directory.
+TRACE::2024-10-01.00:35:40::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-01.00:35:40::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-10-01.00:35:40::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-10-01.00:35:40::SCWSystem::Completed Processing the sysconfig pl4
+LOG::2024-10-01.00:35:40::SCWPlatform::Completed generating the artifacts for system configuration pl4
+TRACE::2024-10-01.00:35:40::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-01.00:35:40::SCWSystem::Writing the bif file for system config pl4
+TRACE::2024-10-01.00:35:40::SCWSystem::dir created 
+TRACE::2024-10-01.00:35:40::SCWSystem::Writing the bif 
+TRACE::2024-10-01.00:35:40::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-01.00:35:40::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-01.00:35:40::SCWPlatform::Completed generating the platform
+TRACE::2024-10-01.00:35:40::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:35:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:35:40::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:35:40::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:35:40::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:35:40::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:35:40::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:35:40::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:40::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:40::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-01.00:35:40::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-01.00:35:40::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:35:40::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:35:40::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:35:40::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:35:40::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:35:40::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:35:40::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:35:40::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:02::SCWMssOS::cleaning the bsp 
+TRACE::2024-10-01.00:38:02::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s clean 
+
+TRACE::2024-10-01.00:38:02::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s clean 
+
+TRACE::2024-10-01.00:38:03::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s clean 
+
+TRACE::2024-10-01.00:38:03::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s clean 
+
+TRACE::2024-10-01.00:38:03::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::cleaning the bsp 
+TRACE::2024-10-01.00:38:08::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s clean 
+
+TRACE::2024-10-01.00:38:08::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-10-01.00:38:15::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:38:15::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:38:15::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:38:15::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:38:15::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:38:15::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:38:15::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:38:15::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:38:15::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:38:15::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:15::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:15::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:15::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:38:15::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:15::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:38:15::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:38:15::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:38:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:38:15::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:15::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:15::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:38:15::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:15::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:38:15::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:38:15::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:38:15::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:38:15::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-10-01.00:38:15::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:38:15::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:38:15::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:38:15::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:38:15::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:38:15::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:38:15::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:38:15::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:38:15::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:38:15::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:38:15::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:38:15::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2024-10-01.00:38:15::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2024-10-01.00:38:15::SCWMssOS::ions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Compiling can_controller...
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:38:15::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:38:15::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:38:15::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:38:15::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:38:15::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:38:15::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:38:15::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:38:15::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:38:15::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:38:15::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:38:15::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:38:15::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:38:15::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:38:15::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:38:15::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:38:15::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:38:15::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:38:15::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:38:15::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:38:15::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:38:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:38:15::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:38:15::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:38:15::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:38:15::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-10-01.00:38:16::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-10-01.00:38:16::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-10-01.00:38:16::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-10-01.00:38:16::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-10-01.00:38:16::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-10-01.00:38:16::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-10-01.00:38:16::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-10-01.00:38:16::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-10-01.00:38:16::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-10-01.00:38:16::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-10-01.00:38:16::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-10-01.00:38:16::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-10-01.00:38:16::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-10-01.00:38:16::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-10-01.00:38:16::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-10-01.00:38:16::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-10-01.00:38:16::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2024-10-01.00:38:16::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2024-10-01.00:38:16::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xmbox.o microblaze_0/lib/x
+TRACE::2024-10-01.00:38:16::SCWMssOS::mbox_g.o microblaze_0/lib/xmbox_sinit.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.
+TRACE::2024-10-01.00:38:16::SCWMssOS::o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o 
+TRACE::2024-10-01.00:38:16::SCWMssOS::microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlit
+TRACE::2024-10-01.00:38:16::SCWMssOS::e.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_
+TRACE::2024-10-01.00:38:16::SCWMssOS::selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::Finished building libraries
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::Copying to export directory.
+TRACE::2024-10-01.00:38:16::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-01.00:38:16::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-10-01.00:38:16::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-10-01.00:38:16::SCWSystem::Completed Processing the sysconfig pl4
+LOG::2024-10-01.00:38:16::SCWPlatform::Completed generating the artifacts for system configuration pl4
+TRACE::2024-10-01.00:38:16::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-01.00:38:16::SCWSystem::Writing the bif file for system config pl4
+TRACE::2024-10-01.00:38:16::SCWSystem::dir created 
+TRACE::2024-10-01.00:38:16::SCWSystem::Writing the bif 
+TRACE::2024-10-01.00:38:16::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-01.00:38:16::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-01.00:38:16::SCWPlatform::Completed generating the platform
+TRACE::2024-10-01.00:38:16::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:38:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:38:16::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:38:16::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:38:16::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:38:16::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:38:16::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:38:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:38:16::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:16::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:16::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-01.00:38:16::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-01.00:38:16::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:38:16::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:38:16::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:38:16::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:38:16::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:38:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:38:16::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:38:16::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:38:16::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:34::SCWMssOS::cleaning the bsp 
+TRACE::2024-10-01.00:46:34::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s clean 
+
+TRACE::2024-10-01.00:46:34::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-10-01.00:46:42::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:46:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:46:42::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:46:42::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:46:42::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:46:42::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:46:42::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:46:42::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:46:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:46:42::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:46:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:46:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:46:42::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:46:42::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:46:42::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-10-01.00:46:42::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:46:42::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:46:42::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:46:42::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:46:42::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:46:42::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:46:42::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:46:42::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:46:42::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:46:42::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:46:42::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:46:42::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2024-10-01.00:46:42::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2024-10-01.00:46:42::SCWMssOS::ions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Compiling can_controller...
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:46:42::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:46:42::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:46:42::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:46:42::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:46:42::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:46:42::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:46:42::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:46:42::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:46:42::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:46:42::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:46:42::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:46:42::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:46:42::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:46:42::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:46:42::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:46:42::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:46:42::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:46:42::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:46:42::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:46:42::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:46:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:46:42::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:46:42::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:46:42::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-10-01.00:46:42::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-10-01.00:46:42::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-10-01.00:46:42::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-10-01.00:46:42::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-10-01.00:46:42::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-10-01.00:46:42::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-10-01.00:46:42::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-10-01.00:46:42::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-10-01.00:46:42::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-10-01.00:46:42::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-10-01.00:46:42::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-10-01.00:46:42::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-10-01.00:46:42::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-10-01.00:46:42::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-10-01.00:46:42::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-10-01.00:46:42::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-10-01.00:46:42::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2024-10-01.00:46:42::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2024-10-01.00:46:42::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xmbox.o microblaze_0/lib/x
+TRACE::2024-10-01.00:46:42::SCWMssOS::mbox_g.o microblaze_0/lib/xmbox_sinit.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.
+TRACE::2024-10-01.00:46:42::SCWMssOS::o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o 
+TRACE::2024-10-01.00:46:42::SCWMssOS::microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlit
+TRACE::2024-10-01.00:46:42::SCWMssOS::e.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_
+TRACE::2024-10-01.00:46:42::SCWMssOS::selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Finished building libraries
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Copying to export directory.
+TRACE::2024-10-01.00:46:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-01.00:46:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-10-01.00:46:42::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-10-01.00:46:42::SCWSystem::Completed Processing the sysconfig pl4
+LOG::2024-10-01.00:46:42::SCWPlatform::Completed generating the artifacts for system configuration pl4
+TRACE::2024-10-01.00:46:42::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-01.00:46:42::SCWSystem::Writing the bif file for system config pl4
+TRACE::2024-10-01.00:46:42::SCWSystem::dir created 
+TRACE::2024-10-01.00:46:42::SCWSystem::Writing the bif 
+TRACE::2024-10-01.00:46:42::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-01.00:46:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-01.00:46:42::SCWPlatform::Completed generating the platform
+TRACE::2024-10-01.00:46:42::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:46:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:46:42::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:46:42::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-01.00:46:42::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:46:42::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:46:42::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:46:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:46:42::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:46:42::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:46:42::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:56:53::SCWMssOS::cleaning the bsp 
+TRACE::2024-10-01.00:56:53::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s clean 
+
+TRACE::2024-10-01.00:56:54::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-10-01.00:57:01::SCWPlatform::Started generating the artifacts platform pl4
+TRACE::2024-10-01.00:57:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-01.00:57:01::SCWPlatform::Started generating the artifacts for system configuration pl4
+LOG::2024-10-01.00:57:01::SCWSystem::Checking the domain standalone_domain
+LOG::2024-10-01.00:57:01::SCWSystem::Not a boot domain 
+LOG::2024-10-01.00:57:01::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-10-01.00:57:01::SCWDomain::Generating domain artifcats
+TRACE::2024-10-01.00:57:01::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-01.00:57:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:57:01::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::Completed writing the mss file at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp
+TRACE::2024-10-01.00:57:01::SCWMssOS::Mss edits present, copying mssfile into export location /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-01.00:57:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-01.00:57:01::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-10-01.00:57:01::SCWMssOS::doing bsp build ... 
+TRACE::2024-10-01.00:57:01::SCWMssOS::System Command Ran  cd  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-10-01.00:57:01::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:57:01::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:57:01::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:57:01::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:57:01::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:57:01::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:57:01::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:57:01::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:57:01::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:57:01::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:57:01::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:57:01::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2024-10-01.00:57:01::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2024-10-01.00:57:01::SCWMssOS::ions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Compiling can_controller...
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/can_controller_v1_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/can_controller_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2024-10-01.00:57:01::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-10-01.00:57:01::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:57:01::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:57:01::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:57:01::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:57:01::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-10-01.00:57:01::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-10-01.00:57:01::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:57:01::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-10-01.00:57:01::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-10-01.00:57:01::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:57:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:57:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_17/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_10/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:57:01::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:57:01::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-10-01.00:57:01::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-10-01.00:57:01::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/mbox_v4_6/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/mbox_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-10-01.00:57:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-10-01.00:57:01::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-10-01.00:57:01::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-10-01.00:57:01::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-10-01.00:57:01::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-10-01.00:57:01::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-10-01.00:57:01::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-10-01.00:57:01::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-10-01.00:57:01::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-10-01.00:57:01::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-10-01.00:57:01::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-10-01.00:57:01::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-10-01.00:57:01::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-10-01.00:57:01::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-10-01.00:57:01::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-10-01.00:57:01::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-10-01.00:57:01::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-10-01.00:57:01::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-10-01.00:57:01::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-10-01.00:57:01::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-10-01.00:57:01::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-10-01.00:57:01::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-10-01.00:57:01::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-10-01.00:57:01::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2024-10-01.00:57:01::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2024-10-01.00:57:01::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xmbox.o microblaze_0/lib/x
+TRACE::2024-10-01.00:57:01::SCWMssOS::mbox_g.o microblaze_0/lib/xmbox_sinit.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.
+TRACE::2024-10-01.00:57:01::SCWMssOS::o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o 
+TRACE::2024-10-01.00:57:01::SCWMssOS::microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlit
+TRACE::2024-10-01.00:57:01::SCWMssOS::e.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_
+TRACE::2024-10-01.00:57:01::SCWMssOS::selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Finished building libraries
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Copying to export directory.
+TRACE::2024-10-01.00:57:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-01.00:57:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-10-01.00:57:01::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-10-01.00:57:01::SCWSystem::Completed Processing the sysconfig pl4
+LOG::2024-10-01.00:57:01::SCWPlatform::Completed generating the artifacts for system configuration pl4
+TRACE::2024-10-01.00:57:01::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-01.00:57:01::SCWSystem::Writing the bif file for system config pl4
+TRACE::2024-10-01.00:57:01::SCWSystem::dir created 
+TRACE::2024-10-01.00:57:01::SCWSystem::Writing the bif 
+TRACE::2024-10-01.00:57:01::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-01.00:57:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-01.00:57:01::SCWPlatform::Completed generating the platform
+TRACE::2024-10-01.00:57:01::SCWMssOS::Saving the mss changes /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-01.00:57:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-01.00:57:01::SCWMssOS::Commit changes completed.
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:57:01::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWWriter::formatted JSON is {
+	"platformName":	"pl4",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"pl4",
+	"platHandOff":	"/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/bd1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bd1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"pl4",
+	"systems":	[{
+			"systemName":	"pl4",
+			"systemDesc":	"pl4",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"pl4",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"8904864b42e00f005f1acba0071f29d6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-01.00:57:01::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to open the hw design at /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA given /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA absoulate path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform::DSA directory /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Platform Path /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/hw/bd1_wrapper.xsa
+TRACE::2024-10-01.00:57:01::SCWPlatform:: Unique name xilinx:nexys_video::0.0
+TRACE::2024-10-01.00:57:01::SCWPlatform::Trying to set the existing hwdb with name bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Opened existing hwdb bd1_wrapper_2
+TRACE::2024-10-01.00:57:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-01.00:57:01::SCWMssOS::Checking the sw design at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-10-01.00:57:01::SCWMssOS::DEBUG:  swdes dump  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-10-01.00:57:01::SCWMssOS::Sw design exists and opened at  /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/microblaze_0/standalone_domain/bsp/system.mss

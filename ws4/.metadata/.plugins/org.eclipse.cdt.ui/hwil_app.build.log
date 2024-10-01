@@ -1,0 +1,113 @@
+00:57:05 **** Build of configuration Debug for project hwil_app ****
+make all 
+Building file: ../src/can_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/can_drv.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/can_drv.d" -MT"src/can_drv.o" -o "src/can_drv.o" "../src/can_drv.c"
+In file included from ../src/can_drv.c:1:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/can_drv.c: In function 'can_set_pin':
+../src/can_drv.c:95:22: warning: passing argument 1 of 'write_gpio_1' makes integer from pointer without a cast [-Wint-conversion]
+   95 |         write_gpio_1(&regs->control, 0, pin, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+In file included from ../src/can_drv.h:8:
+../src/gpio_drv.h:11:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   11 | extern void write_gpio_1(uint32_t addr, uint32_t byte_offset, uint32_t bit_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_set_data':
+../src/can_drv.c:99:22: warning: passing argument 1 of 'write_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+   99 |         write_gpio_8(&regs->tx_fifo, 0, value);
+      |                      ^~~~~~~~~~~~~~
+      |                      |
+      |                      volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:10:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   10 | extern void write_gpio_8(uint32_t addr, uint32_t byte_offset, uint8_t value);
+      |                          ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_read_data':
+../src/can_drv.c:104:27: warning: passing argument 1 of 'read_gpio_8' makes integer from pointer without a cast [-Wint-conversion]
+  104 |         ret = read_gpio_8(&regs->rx_fifo, 0);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           volatile uint32_t * {aka volatile long unsigned int *}
+../src/gpio_drv.h:12:37: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
+   12 | extern uint8_t read_gpio_8(uint32_t addr, uint32_t byte_offset);
+      |                            ~~~~~~~~~^~~~
+../src/can_drv.c: In function 'can_rxd':
+../src/can_drv.c:217:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  217 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+../src/can_drv.c: In function 'initialize_can_data_frame':
+../src/can_drv.c:306:23: warning: type of 'addr1' defaults to 'int' [-Wimplicit-int]
+  306 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr) {
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/can_drv.c:306:23: warning: type of 'addr2' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'addr3' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c:306:23: warning: type of 'can_addr' defaults to 'int' [-Wimplicit-int]
+../src/can_drv.c: In function 'can_rxd_frame':
+../src/can_drv.c:329:13: warning: variable 'Rxd_data' set but not used [-Wunused-but-set-variable]
+  329 |     uint8_t Rxd_data;
+      |             ^~~~~~~~
+Finished building: ../src/can_drv.c
+ 
+Building file: ../src/control_node_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_node_main.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/control_node_main.d" -MT"src/control_node_main.o" -o "src/control_node_main.o" "../src/control_node_main.c"
+In file included from ../src/control_node_main.c:18:
+../src/can_drv.h:252:8: warning: parameter names (without types) in function declaration
+  252 | struct can_data_frame initialize_can_data_frame(addr1,addr2,addr3,can_addr);
+      |        ^~~~~~~~~~~~~~
+../src/control_node_main.c: In function 'timer_init':
+../src/control_node_main.c:136:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  136 |     XTmrCtr_SetHandler(&Timer, timer_intr_hander,&Timer);
+      |                                ^~~~~~~~~~~~~~~~~
+      |                                |
+      |                                void (*)(void *)
+In file included from ../src/control_node_main.c:14:
+/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include/xtmrctr.h:319:63: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+  319 | void XTmrCtr_SetHandler(XTmrCtr *InstancePtr, XTmrCtr_Handler FuncPtr,
+      |                                               ~~~~~~~~~~~~~~~~^~~~~~~
+../src/control_node_main.c: In function 'main':
+../src/control_node_main.c:228:43: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  228 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:19:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   18 | #include "can_drv.h"
+  +++ |+#include <stdlib.h>
+   19 | 
+../src/control_node_main.c:228:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  228 |     struct can_data_frame *inject_frame = malloc(sizeof(struct can_data_frame));
+      |                                           ^~~~~~
+../src/control_node_main.c:228:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/control_node_main.c: In function 'uart_handler':
+../src/control_node_main.c:323:8: warning: unused variable 'Read_data' [-Wunused-variable]
+  323 |     u8 Read_data[MAX_COMMAND_LENGTH];
+      |        ^~~~~~~~~
+Finished building: ../src/control_node_main.c
+ 
+Building file: ../src/gpio_drv.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_drv.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_drv.d" -MT"src/gpio_drv.o" -o "src/gpio_drv.o" "../src/gpio_drv.c"
+Finished building: ../src/gpio_drv.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hwil_app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/sw/pl4/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hwil_app.elf" ./src/can_drv.o ./src/control_node_main.o ./src/gpio_drv.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hwil_app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size hwil_app.elf  |tee "hwil_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102844	   1924	   3728	 108496	  1a7d0	hwil_app.elf
+Finished building: hwil_app.elf.size
+ 
+
+00:57:05 Build Finished (took 367ms)
+

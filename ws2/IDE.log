@@ -4633,3 +4633,5 @@ con
 
 12:59:22 INFO  : Launch script is exported to file '/home/temporary/Desktop/ChanghongTemp/ws2/hwil_app_system/_ide/scripts/systemdebugger_hwil_app_system_standalone.tcl'
 16:43:32 INFO  : Disconnected from the channel tcfchan#9.
+00:16:25 DEBUG : Logs will be stored at '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws2/IDE.log'.
+00:19:07 DEBUG : Logs will be stored at '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws2/IDE.log'.
