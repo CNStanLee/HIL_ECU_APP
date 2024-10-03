@@ -164,3 +164,147 @@ con
 00:57:01 INFO  : Result from executing command 'getProjects': pl4
 00:57:01 INFO  : Result from executing command 'getPlatforms': 
 00:57:04 INFO  : Checking for BSP changes to sync application flags for project 'hwil_app'...
+18:57:48 INFO  : Disconnected from the channel tcfchan#12.
+18:57:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:50 INFO  : Jtag cable 'Digilent Nexys Video 210276B81712B' is selected.
+18:57:50 INFO  : 'jtag frequency' command is executed.
+18:57:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}' command is executed.
+18:57:53 INFO  : Device configured successfully with "/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit"
+18:57:53 INFO  : Context for processor 'mb_dos' is selected.
+18:57:53 INFO  : Hardware design and registers information is loaded from '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa'.
+18:57:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:57:53 INFO  : Context for processor 'mb_dos' is selected.
+18:57:53 INFO  : System reset is completed.
+18:57:56 INFO  : 'after 3000' command is executed.
+18:57:56 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:57 INFO  : The application '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf' is downloaded to processor 'microblaze_0'.
+18:57:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}
+fpga -file /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+loadhw -hw /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf
+----------------End of Script----------------
+
+18:57:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:57 INFO  : 'con' command is executed.
+18:57:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:57:57 INFO  : Launch script is exported to file '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app_system/_ide/scripts/debugger_hwil_app-default.tcl'
+19:04:29 INFO  : Disconnected from the channel tcfchan#17.
+19:04:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:04:30 INFO  : Jtag cable 'Digilent Nexys Video 210276B81712B' is selected.
+19:04:30 INFO  : 'jtag frequency' command is executed.
+19:04:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}' command is executed.
+19:04:34 INFO  : Device configured successfully with "/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit"
+19:04:34 INFO  : Context for processor 'mb_dos' is selected.
+19:04:34 INFO  : Hardware design and registers information is loaded from '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa'.
+19:04:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:04:34 INFO  : Context for processor 'mb_dos' is selected.
+19:04:34 INFO  : System reset is completed.
+19:04:37 INFO  : 'after 3000' command is executed.
+19:04:37 INFO  : Context for processor 'microblaze_0' is selected.
+19:04:37 INFO  : The application '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf' is downloaded to processor 'microblaze_0'.
+19:04:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}
+fpga -file /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+loadhw -hw /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf
+----------------End of Script----------------
+
+19:04:37 INFO  : Context for processor 'microblaze_0' is selected.
+19:04:37 INFO  : 'con' command is executed.
+19:04:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:04:37 INFO  : Launch script is exported to file '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app_system/_ide/scripts/debugger_hwil_app-default.tcl'
+19:59:47 INFO  : Disconnected from the channel tcfchan#18.
+19:59:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:59:48 INFO  : Jtag cable 'Digilent Nexys Video 210276B81712B' is selected.
+19:59:48 INFO  : 'jtag frequency' command is executed.
+19:59:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}' command is executed.
+19:59:51 INFO  : Device configured successfully with "/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit"
+19:59:51 INFO  : Context for processor 'mb_dos' is selected.
+19:59:51 INFO  : Hardware design and registers information is loaded from '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa'.
+19:59:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:59:51 INFO  : Context for processor 'mb_dos' is selected.
+19:59:51 INFO  : System reset is completed.
+19:59:54 INFO  : 'after 3000' command is executed.
+19:59:54 INFO  : Context for processor 'microblaze_0' is selected.
+19:59:54 INFO  : The application '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf' is downloaded to processor 'microblaze_0'.
+19:59:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}
+fpga -file /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+loadhw -hw /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf
+----------------End of Script----------------
+
+19:59:54 INFO  : Context for processor 'microblaze_0' is selected.
+19:59:54 INFO  : 'con' command is executed.
+19:59:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:59:54 INFO  : Launch script is exported to file '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app_system/_ide/scripts/debugger_hwil_app-default.tcl'
+20:00:18 INFO  : Disconnected from the channel tcfchan#19.
+20:00:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:00:19 INFO  : Jtag cable 'Digilent Nexys Video 210276B81712B' is selected.
+20:00:19 INFO  : 'jtag frequency' command is executed.
+20:00:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}' command is executed.
+20:00:22 INFO  : Device configured successfully with "/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit"
+20:00:22 INFO  : Context for processor 'mb_dos' is selected.
+20:00:23 INFO  : Hardware design and registers information is loaded from '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa'.
+20:00:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:00:23 INFO  : Context for processor 'mb_dos' is selected.
+20:00:23 INFO  : System reset is completed.
+20:00:26 INFO  : 'after 3000' command is executed.
+20:00:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:00:26 INFO  : The application '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf' is downloaded to processor 'microblaze_0'.
+20:00:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276B81712B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276B81712B-13636093-0"}
+fpga -file /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/_ide/bitstream/bd1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+loadhw -hw /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/pl4/export/pl4/hw/bd1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#5" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app/Debug/hwil_app.elf
+----------------End of Script----------------
+
+20:00:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:00:26 INFO  : 'con' command is executed.
+20:00:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:00:26 INFO  : Launch script is exported to file '/home/labuser/temp_changhong_2024_09_30/HIL_ECU_APP/ws4/hwil_app_system/_ide/scripts/debugger_hwil_app-default.tcl'
